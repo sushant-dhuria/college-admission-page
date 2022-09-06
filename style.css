@@ -10,16 +10,14 @@
 
 .wrapper{
     display: flex !important;
-	justify-content: space-between;
+	justify-content: space-between !important;
 	width: 100%;
 }
 .tabs{
-	width: 16%;
+	width: 22%;
 }
 
-.content{
-	width: 78%;
-}
+
 .tabs ul{
 	display: flex;
     flex-direction: column;
@@ -28,8 +26,8 @@
 }
 
 .tabs ul li{
-	width: 100%;
-	padding: 10px;
+	width: 70%;
+	padding: 12px;
 	border-right: 1px solid #dddddd;
 	text-align: center;
 	color: #3b3b3b;
@@ -39,6 +37,7 @@
 	cursor: pointer;
 	transition: all 0.2s ease;
 	position: relative;
+	box-shadow: 4px 4px #6998c4;
 }
 
 
@@ -84,6 +83,10 @@
 padding-bottom:2px;
 border-bottom: 2px solid black;
 display: inline-block;
+}
+.tab_content{
+	width: 90%;
+	margin-left: 4%;
 }
 
 .tab_wrap .tab_content p{

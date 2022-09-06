@@ -242,7 +242,7 @@
   padding-left: 100%;
   /* show the marquee just outside the paragraph */
   will-change: transform;
-  animation: marquee 15s linear infinite;
+  animation: marquee 25s linear infinite;
 }
 
 .marquee span:hover {
@@ -261,7 +261,7 @@
 @media (prefers-reduced-motion: reduce) {
   .marquee span {
     animation-iteration-count: 1;
-    animation-duration: 0.01; 
+    animation-duration: 0.1; 
     /* instead of animation: none, so an animationend event is 
      * still available, if previously attached.
      */
@@ -804,7 +804,7 @@
                           Discover Student Life
                         </li>
                         <li class="hover:font-semibold hover:text-[#FF6600]">
-                          Courses Offered
+                                                   <a href="https://www.nitj.ac.in/index.php/nitj_cinfo/index/9" target="_blank"> Courses Offered</a>
                         </li>
                         <li class="hover:font-semibold hover:text-[#FF6600]">
                           How to Apply
@@ -873,20 +873,21 @@
                         &ThinSpace; INSTITUTE PROSPECTUS &ThinSpace;
                       </div>
                       <ul class="flex flex-col gap-1 px-2 font-normal text-black">
-                        <li class="hover:font-semibold hover:text-[#FF6600]">
-                          B.Tech
+                         <li class="hover:font-semibold hover:text-[#FF6600]">
+                         <a href="https://www.nitj.ac.in/nitj_files/links/B_10610.pdf" target="_blank">B.Tech</a> 
                         </li>
                         <li class="hover:font-semibold hover:text-[#FF6600]">
-                          M.Tech
+                         <a href="https://www.nitj.ac.in/nitj_files/links/M_8600.pdf" target="_blank"> M.Tech </a>
                         </li>
                         <li class="hover:font-semibold hover:text-[#FF6600]">
-                          Msc
+                        <a href="https://www.nitj.ac.in/nitj_files/links/M_65503.pdf" target="_blank">Msc</a>
                         </li>
                         <li class="hover:font-semibold hover:text-[#FF6600]">
-                          MBA
+                        <a href="https://www.nitj.ac.in/nitj_files/links/MBA_Regulations_57981.pdf" target="_blank">MBA</a>
                         </li>
                         <li class="hover:font-semibold hover:text-[#FF6600]">
-                          Ph.D
+                        <a href="https://www.nitj.ac.in/nitj_files/links/Ph_26826.pdf" target="_blank">PhD</a>
+                      
                         </li>
                       </ul>
                     </div>
@@ -1256,7 +1257,7 @@
 
 
 <div class="wrapper">
-	<div class="tabs fixed  p-2 rounded  mt-[20%]" id="sidetab">
+	<div class="tabs fixed  p-2 rounded  mt-[15%]" id="sidetab">
         <!-- <li class="bg-[#2776c0] text-white programmes-heading p-3 font-bold text-center">Programmes</li> -->
 		<ul>
           
@@ -1270,7 +1271,12 @@
 			</li>
 			<li class="bg-blue-100 mb-2">
 
-				<span class="text">MSc</span>
+				<span class="text">MSc (CCMT)</span>
+			</li>
+		
+      <li class="bg-blue-100 mb-2">
+
+			MSc (Self Sponsored)
 			</li>
 		
 
@@ -1290,7 +1296,7 @@
     
 	<div class="content ml-[22%] mt-[20%]">
 		<div class="tab_wrap " style="display: block;">
-			<div class="title font-semibold"><span class="text-[#2776c0]">B.Tech</span> Programme</div>
+			<div class="title font-semibold ml-10"><span class="text-[#2776c0]">B.Tech</span> Programme</div>
 			<div class="tab_content">
             
             
@@ -1302,28 +1308,21 @@
                 <div class="bg-[#2776c0] rounded-md inline-block p-3 text-white font-bold ml-[30%] shadow-md">Modes Of Admission</div>
 
                 <div class="mode flex-col mb-4">
-                    <div class="mode-head rounded-md bg-[#2776c0] inline-block p-2 shadow-md mb-4  text-white font-bold">JOSAA</div>
+                    <div class="mode-head rounded-md bg-[#2776c0] inline-block p-2 shadow-md mb-4  text-white font-bold">JOSAA / CSAB</div>
                     <ul class="ml-[6%]">
                        <li><i class="fa-solid fa-chevron-right mr-2"></i> <a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of JOSAA </a></li>
-<li><i class="fa-solid fa-chevron-right mr-2"></i><a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of JEE Mains</a></li>
-<li><i class="fa-solid fa-chevron-right mr-2"></i>Information to newly admitted students</li>
-
-                    </ul>
-                </div>
-
-                <div class="mode flex-col mb-4">
-                    <div class="mode-head rounded-md bg-[#2776c0] inline-block p-2 shadow-md mb-4 text-white font-bold">CSAB</div>
-                    <ul class="ml-[6%]">
                        <li><i class="fa-solid fa-chevron-right mr-2"></i> <a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of CSAB </a></li>
-<li><i class="fa-solid fa-chevron-right mr-2"></i>Information to newly admitted students spot round</li>
-                    </ul>
+                  
+                      </ul>
                 </div>
+
+      
 
                 <div class="mode flex-col mb-4">
                     <div class="mode-head rounded-md bg-[#2776c0] inline-block mb-4 p-2 shadow-md  text-white font-bold">DASA</div>
                     <ul class="ml-[6%]">
                        <li><i class="fa-solid fa-chevron-right mr-2"></i> <a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of DASA </a></li>
-<li><i class="fa-solid fa-chevron-right mr-2"></i><a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of JEE Mains</a></li>
+
 
                     </ul>
                 </div>
@@ -1346,8 +1345,8 @@
             
             
                 <div class="section flex ml-[30px] mr-[30px]  h-[50%] justify-between">
-            <div class="left w-[55%] h-[40%] font-sans">
-                <div class="head block bg-color-1 text-white p-2">
+            <div class="left w-[55%]  overflow-auto h-[250px] font-sans">
+                <div class="head sticky bg-color-1 text-white p-2">
                     UG Admissions (2025- 2029)
                 </div>
             <div class="admission">
@@ -1364,10 +1363,18 @@
                     </li>
                     <li><span  class="bg-[#0369A1]">|</span> <a href="" class="hover:text-orange-600"> Undertaking for Sexual Harassment </a></li>
                     <li><span  class="bg-[#0369A1]">|</span> <a href="" class="hover:text-orange-600"> Important Instructions for Online submission of Documents & Forms
-            
                     </a>
                     </li>
-              
+                    <li><span  class="bg-[#0369A1]">|</span> <a href="" class="hover:text-orange-600"> Important Instructions for Online submission of Documents & Forms
+                    </a>
+                    </li>
+                    <li><span  class="bg-[#0369A1]">|</span> <a href="" class="hover:text-orange-600"> Important Instructions for Online submission of Documents & Forms
+                    </a>
+                    </li>
+                      <li><span  class="bg-[#0369A1]">|</span> <a href="" class="hover:text-orange-600"> Important Instructions for Online submission of Documents & Forms
+                    </a>
+                    </li>
+                    
                 </ul>
             </div>
             
@@ -1427,7 +1434,7 @@
             
                 </div>
                 <div id="reporting-and-registrations" class="mt-[4%]">
-                    <div class="heading font-semibold text-[40px] font-sans pb-2 border-black border-b-2 inline"><span class="text-[#2776c0]">Reporting</span> a<span class="text-[#2776c0]">n</span>d Registration</div>
+                    <div class="heading font-semibold text-[40px] font-sans pb-2 border-black border-b-2 inline"><span class="text-[#2776c0]">Reporting</span> and Registration</div>
                     <div class="underline3 w-[100%] mb-[4%]"></div>
             
                     <div id = "notice-table" class="ml-[30px] mr-[30px] mb-[4%]">
@@ -1498,6 +1505,8 @@
             
 			</div>
 		</div>
+
+    <!--Mtech Programme-->
     <div class="tab_wrap " style="display: none;">
 			<div class="title font-semibold"><span class="text-[#2776c0]">M.Tech</span> Programme</div>
 			<div class="tab_content">
@@ -1707,6 +1716,8 @@
             
 			</div>
 		</div>
+
+    <!--Msc section-->
     <div class="tab_wrap " style="display: none;">
 			<div class="title font-semibold"><span class="text-[#2776c0]">MSc</span> Programme</div>
 			<div class="tab_content">
@@ -1917,6 +1928,221 @@
 			</div>
 		</div>
 
+<!--MSC Self Sponsored-->
+
+<div class="tab_wrap " style="display: none;">
+  <div class="title font-semibold"><span class="text-[#2776c0]">MSc(Self Sponsored)</span> Programme</div>
+  <div class="tab_content">
+        
+        
+    
+        
+        <!--start admission page guyz -->
+        
+        <div class="modes_of_admission ">
+            <div class="bg-[#2776c0] rounded-md inline-block p-3 text-white font-bold ml-[30%] shadow-md">Modes Of Admission</div>
+
+            <div class="mode flex-col mb-4">
+                <div class="mode-head rounded-md bg-[#2776c0] inline-block p-2 shadow-md mb-4  text-white font-bold">JOSAA</div>
+                <ul class="ml-[6%]">
+                   <li><i class="fa-solid fa-chevron-right mr-2"></i> <a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of JOSAA </a></li>
+<li><i class="fa-solid fa-chevron-right mr-2"></i><a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of JEE Mains</a></li>
+<li><i class="fa-solid fa-chevron-right mr-2"></i>Information to newly admitted students</li>
+
+                </ul>
+            </div>
+
+            <div class="mode flex-col mb-4">
+                <div class="mode-head rounded-md bg-[#2776c0] inline-block p-2 shadow-md mb-4 text-white font-bold">CSAB</div>
+                <ul class="ml-[6%]">
+                   <li><i class="fa-solid fa-chevron-right mr-2"></i> <a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of CSAB </a></li>
+<li><i class="fa-solid fa-chevron-right mr-2"></i>Information to newly admitted students spot round</li>
+                </ul>
+            </div>
+
+            <div class="mode flex-col mb-4">
+                <div class="mode-head rounded-md bg-[#2776c0] inline-block mb-4 p-2 shadow-md  text-white font-bold">DASA</div>
+                <ul class="ml-[6%]">
+                   <li><i class="fa-solid fa-chevron-right mr-2"></i> <a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of DASA </a></li>
+<li><i class="fa-solid fa-chevron-right mr-2"></i><a href="" class="text-[#2776c0] hover:text-orange-600"> Home Page of JEE Mains</a></li>
+
+                </ul>
+            </div>
+        </div>
+        
+
+        
+        
+        
+        
+        <!--Admission updates-->
+        
+        
+           
+        <div class="heading text-[40px] font-semibold pb-2 border-black border-b-2 inline font-sans"><span class="text-[#2776c0]">Admission</span> Updates</div>
+
+        
+        
+            <div class="underline3 w-[100%] mb-[4%]"></div>
+        
+        
+            <div class="section flex ml-[30px] mr-[30px]  h-[50%] justify-between">
+        <div class="left w-[55%] h-[40%] font-sans">
+            <div class="head block bg-color-1 text-white p-2">
+                UG Admissions (2025- 2029)
+            </div>
+        <div class="admission">
+            <ul class="text-[14px] leading-8">
+                <li><span class="bg-[#0369A1]">|</span><a href="" class="hover:text-orange-600"> New Admissions UG Batch (2039)</a></li>
+                <li><span  class="bg-[#0369A1]">|</span> <a href="" class="hover:text-orange-600">
+                    Important Information on Orientation & Registration for new B.Des Students (Session 2022-23)
+                </a>
+                </li>
+                <li><span  class="bg-[#0369A1]">|</span> 
+                    <a href="" class="hover:text-orange-600">
+                    Orientation-cum-Registration Schedule for B.Des Students (Session 2022-23)
+                </a>
+                </li>
+                <li><span  class="bg-[#0369A1]">|</span> <a href="" class="hover:text-orange-600"> Undertaking for Sexual Harassment </a></li>
+                <li><span  class="bg-[#0369A1]">|</span> <a href="" class="hover:text-orange-600"> Important Instructions for Online submission of Documents & Forms
+        
+                </a>
+                </li>
+          
+            </ul>
+        </div>
+        
+        </div>
+        
+        <div class="right w-[35%]">   
+             <div class="head block bg-[#0369A1] text-white p-2">
+            Important Links
+        </div>
+        <marquee  direction="up" onmouseover="this.setAttribute('scrollamount', 0, 0);this.stop()" onmouseout="this.setAttribute('scrollamount',3, 0);this.start()" scrollamount="4">
+
+        <div class="flex-col justify-center align-center" >
+        <ul class="h-[200px] w-[100%]  leading-8">
+            <li>
+            <a href="" class="ml-[3%] hover:text-orange-600">JOSAA</a>
+            <hr class="border-1 border-black">
+            </li>
+            <li>
+                <a href="" class="ml-[3%] hover:text-orange-600">CSAB</a>
+                <hr class="border-1 border-black">
+                </li>
+                <li>
+                    <a href="" class="ml-[3%] hover:text-orange-600">Seat Matrix</a>
+                    <hr class="border-1 border-black">
+                    </li>
+                    <li>
+                        <a href="" class="ml-[3%] hover:text-orange-600">Cutoff 2022</a>
+                    <hr class="border-1 border-black">
+                    </li>
+                    <li>
+                        <a href="" class="ml-[3%] hover:text-orange-600">Academic Brochure</a>
+                        <hr class="border-1 border-black">
+                        </li>
+                        <li>
+                            <a href="" class="ml-[3%] hover:text-orange-600">Institute Policy</a>
+                            <hr class="border-1 border-black">
+                            </li>
+        
+                            <li>
+                                <a href="" class="ml-[3%] hover:text-orange-600">Frequently Asked Questions</a>
+                            <hr class="border-1 border-black">    
+                            </li>
+                                <li>
+                                    <a href="" class="ml-[3%] hover:text-orange-600">Loan Assistance</a>
+                                <hr class="border-1 border-black">
+                                </li>
+                                    <li>
+                                        <a href="" class="ml-[3%] hover:text-orange-600">Anti Ragging</a>
+                                    <hr class="border-1 border-black">
+                                    </li>
+                                    
+                                  
+            </ul>
+        </div>
+        </marquee>
+        </div>
+        
+            </div>
+            <div id="reporting-and-registrations" class="mt-[4%]">
+                <div class="heading font-semibold text-[40px] font-sans pb-2 border-black border-b-2 inline"><span class="text-[#2776c0]">Reporting</span> a<span class="text-[#2776c0]">n</span>d Registration</div>
+                <div class="underline3 w-[100%] mb-[4%]"></div>
+        
+                <div id = "notice-table" class="ml-[30px] mr-[30px] mb-[4%]">
+                    
+                    <table class="table-fixed shadow-lg bg-white w-[100%]">
+                        <thead>
+                            
+                          <tr>
+                            <th class="border bg-color-1 text-white px-8 py-2 w-[75%]">NOTICES</th>
+                            <th class="border bg-color-1 text-white px-8 py-2 w-[25%]">DEADLINE</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td class="border px-8 py-2 text-sm"><a href="#" class="hover:text-orange-600"> Important information on orientation, registration and induction for new B.Tech. students (session 2022-23)</a></td>
+                            <td class="border px-8 py-2 text-sm text-center text-orange-600">23-July, 2020</td>
+                          </tr>
+                          <tr>
+                            <td class="border px-8 py-2 text-sm"><a href="#" class="hover:text-orange-600"> Important information on orientation, registration and induction for new B.Tech. students (session 2022-23)</a></td>
+                            <td class="border px-8 py-2 text-sm text-center text-orange-600">23-July, 2020</td>
+                          </tr>
+                          <tr>
+                            <td class="border px-8 py-2 text-sm"><a href="#" class="hover:text-orange-600"> Important information on orientation, registration and induction for new B.Tech. students (session 2022-23)</a></td>
+                            <td class="border px-8 py-2 text-sm text-center text-orange-600">23-July, 2020</td>
+                          </tr>
+                          <tr>
+                            <td class="border px-8 py-2 text-sm"><a href="#" class="hover:text-orange-600"> Important information on orientation, registration and induction for new B.Tech. students (session 2022-23)</a></td>
+                            <td class="border px-8 py-2 text-sm text-center text-orange-600">23-July, 2020</td>
+                          </tr>
+                          <tr>
+                            <td class="border px-8 py-2 text-sm"><a href="#" class="hover:text-orange-600"> Important information on orientation, registration and induction for new B.Tech. students (session 2022-23)</a></td>
+                            <td class="border px-8 py-2 text-sm text-center text-orange-600">23-July, 2020</td>
+                          </tr>
+                          <tr>
+                            <td class="border px-8 py-2 text-sm"><a href="#" class="hover:text-orange-600"> Important information on orientation, registration and induction for new B.Tech. students (session 2022-23)</a></td>
+                            <td class="border px-8 py-2 text-sm text-center text-orange-600">23-July, 2020</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      
+                </div>
+            </div>
+        
+             <!-- FEES -->
+        
+             <div class="fees-section px-[30px] py-[30px]">
+                <div class="text-[#2776c0]  heading text-[40px] font-semibold pb-2 border-black border-b-2 inline font-sans">FEES
+                </div>
+                <div class="pt-[32px]">
+                    <ul class="text-[16px] leading-8">
+                        <li><span class="bg-[#0369A1]">|</span><a href="" class="pl-1 hover:text-orange-600"> Fee Payment
+                                link (new)</a></li>
+                        <li><span class="bg-[#0369A1]">|</span> <a href="" class="pl-1 hover:text-orange-600"> DASA student
+                                link</a></li>
+                        <li><span class="bg-[#0369A1]">|</span><a href="" class="pl-1 hover:text-orange-600"> Download
+                                e-reciept</a></li>
+                        <li><span class="bg-[#0369A1]">|</span> <a href="" class="pl-1 hover:text-orange-600"> Fee Structure
+                            </a></li>
+                        <li><span class="bg-[#0369A1]">|</span> <a href="" class="pl-1 hover:text-orange-600"> Loan
+                                Facilities</a></li>
+                        <li><span class="bg-[#0369A1]">|</span> <a href="" class="pl-1 hover:text-orange-600">
+                                Scholarships</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+        
+        
+  </div>
+</div>
+
+
+
+    <!--MBA Section-->
     <div class="tab_wrap " style="display: none;">
 			<div class="title font-semibold"><span class="text-[#2776c0]">MBA</span> Programme</div>
 			<div class="tab_content">
@@ -2127,6 +2353,8 @@
 			</div>
 		</div>
 
+
+    <!--phd section-->
 		<div class="tab_wrap " style="display: none;">
 			<div class="title font-semibold"><span class="text-[#2776c0]">PhD</span> Programme</div>
 			<div class="tab_content">
